@@ -10,7 +10,7 @@ Add the TextMeshScheduler component to your scene. Then invoke this extension me
 tmp_text.ScheduleText("John Smith");
 ```
 
-Then make every header and field its own text mesh; no monolithic text meshes.
+Then make every header and field its own text mesh. No monolithic text meshes, or this won't work.
 
 And for best performance:
 * Disable autosize
