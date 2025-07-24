@@ -4,7 +4,7 @@ So I made a simple component called TextMeshScheduler which collects all of the 
 Tested on Unity 6 (6000.0.51f1).
 
 # Usage
-Add the TextMeshScheduler component to your scene. Then invoke the extension method on TMP_Text, TextMeshProUGUI, or TextMeshPro:
+Add the TextMeshScheduler component to your scene. Then invoke this extension method on TMP_Text, TextMeshProUGUI, or TextMeshPro:
 
 ```sh
 tmp_text.ScheduleText("John Smith");
