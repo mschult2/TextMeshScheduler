@@ -9,12 +9,12 @@ Add the TextMeshScheduler component to your scene. Then invoke this extension me
 ```sh
 tmp_text.ScheduleText("John Smith");
 ```
-For best performance:
-1. Turn off the expensive features.
-    * Disable autosize
-    * Set Text Wrapping Mode to None
-    * Disable Rich Text
-    * Disable Parse Escape Characters
-    * Set Font Features to Nothing
-2. Make every header and field its own text mesh, rather than making one monolithic text mesh.
-3. Set the color and style on the text mesh, rather than include rich text tags and newlines.
+
+Then make every header and field its own text mesh; no monolithic text meshes.
+
+And for best performance:
+* Disable autosize
+* Set Text Wrapping Mode to None
+* Disable Rich Text
+* Disable Parse Escape Characters
+* Set Font Features to Nothing
