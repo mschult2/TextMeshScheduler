@@ -13,7 +13,7 @@ tmp_text.ScheduleText("John Smith");
 Then make every header and field its own text mesh. No monolithic text meshes, or this won't work.
 
 And for best performance:
-* Disable autosize
+* Disable Autosize
 * Set Text Wrapping Mode to None
 * Disable Rich Text
 * Disable Parse Escape Characters
